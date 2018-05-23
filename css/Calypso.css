@@ -1,0 +1,21 @@
+body {
+	background-color: #FFFFFF;
+    margin: 0;
+    }
+    
+    td{
+        border-width: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #container{
+        width: 1259px;
+        height: 967px;
+        border: 0px;
+        align-content: center;
+        vertical-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0px;
+    }
