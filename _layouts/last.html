@@ -3,9 +3,9 @@
 <title>Ulysses "Seen" | {{page.categories}} | {{ page.title }}</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     
-<link rel="stylesheet" href="/css/{{page.pagecolor}}.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/{{page.pagecolor}}.css" />
     
-<script src="/js/imageswap.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/js/imageswap.js" type="text/javascript"></script>
     
 <meta name="keywords" content="{{page.keywords}}">
 <meta name="description" content="{{page.description}}">
@@ -15,103 +15,103 @@
 <table id="container">
     <tr>
 		<td colspan="3" rowspan="2">
-			<img src="/img/templates/{{page.pagecolor}}/template_01.png" width="209" height="66" alt="" border="0">
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_01.png" width="209" height="66" alt="" border="0">
         </td>
         <!--Chapter Title Image-->
 		<td colspan="9">
-			<img src="/img/{{page.categories}}/{{page.pagecolor}}-chapterheader.png" width="1050" height="24" alt="" border="0">
+			<img src="{{ site.baseurl }}/img/{{page.categories}}/{{page.pagecolor}}-chapterheader.png" width="1050" height="24" alt="" border="0">
         </td>
     </tr>
 	<tr>
 		<td>
-            <a href="/listing/listing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','/img/templates/{{page.pagecolor}}/template_03_over.png',1)">
-                <img src="/img/templates/{{page.pagecolor}}/template_03.png" alt="chapter listings" name="Image30" width="138" height="42" border="0">
+            <a href="{{ site.baseurl }}/listing/listing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','/img/templates/{{page.pagecolor}}/template_03_over.png',1)">
+                <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_03.png" alt="chapter listings" name="Image30" width="138" height="42" border="0">
             </a>
         </td>
         <td>
-            <a href="/about/about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','/img/templates/{{page.pagecolor}}/template_04_over.png',1)">
-                <img src="/img/templates/{{page.pagecolor}}/template_04.png" alt="about this comic" name="Image34" width="211" height="42" border="0">
+            <a href="{{ site.baseurl }}/about/about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','/img/templates/{{page.pagecolor}}/template_04_over.png',1)">
+                <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_04.png" alt="about this comic" name="Image34" width="211" height="42" border="0">
             </a>
         </td>
         <td>
             <!--Previous Page-->
-            <a href="/{{page.categories}}/{{ page.title | minus: 1}}.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','/img/templates/{{page.pagecolor}}/template-over_05.png',1)"><img src="/img/templates/{{page.pagecolor}}/template_05.png" alt="back" name="Image32" width="29" height="42" border="0"></a>
+            <a href="{{ site.baseurl }}/{{page.categories}}/{{ page.title | minus: 1}}.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','/img/templates/{{page.pagecolor}}/template-over_05.png',1)"><img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_05.png" alt="back" name="Image32" width="29" height="42" border="0"></a>
         </td>
         <td>
             <!--Page Number-->
-            <img src="/img/templates/{{page.pagecolor}}/numbers/{{page.title}}.png" width="71" height="42" border="0">
+            <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/numbers/{{page.title}}.png" width="71" height="42" border="0">
         </td>
         <td>
             <!--Next Page-->
             <a href="{{page.nextpage}}" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','/img/templates/{{page.pagecolor}}/template-over_07.png',1)">
-                <img src="/img/templates/{{page.pagecolor}}/template_07.png" alt="forward" name="Image33" width="29" height="42" border="0">
+                <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_07.png" alt="forward" name="Image33" width="29" height="42" border="0">
             </a>
         </td>
         <td>
             <!--Blog Link-->
             <a href="http://web.sas.upenn.edu/ulysses-test/" target="_blank" onMouseOver="MM_swapImage('Image35','','/img/templates/{{page.pagecolor}}/template_08_over.png',1)" onMouseOut="MM_swapImgRestore()">
-                <img src="/img/templates/{{page.pagecolor}}/template_08.png" alt="blog" name="Image35" width="312" height="42" border="0">
+                <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_08.png" alt="blog" name="Image35" width="312" height="42" border="0">
             </a>
         </td>
         <!--Reader's Guide-->
         <td colspan="2">
           <a href="http://web.sas.upenn.edu/ulysses-test/{{page.categories}}-{{page.title}}" target="_blank" onMouseOver="MM_swapImage('Image31','','/img/templates/{{page.pagecolor}}/template_09_over.png',1)" onMouseOut="MM_swapImgRestore()">
-              <img src="/img/templates/{{page.pagecolor}}/template_09.png" alt="reader's guide" name="Image31" width="123" height="42" border="0">
+              <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_09.png" alt="reader's guide" name="Image31" width="123" height="42" border="0">
           </a>
         </td>
         <td>
-			<img src="/img/templates/{{page.pagecolor}}/template_10.png" width="137" height="42" border="0" alt="">
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_10.png" width="137" height="42" border="0" alt="">
         </td>
 	</tr>
 	<tr>
 		<td rowspan="3">
-			<img src="/img/templates/{{page.pagecolor}}/template_11.png"  width="125" height="749" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_11.png"  width="125" height="749" alt=""></td>
 		<td rowspan="3">
-			<img src="/img/templates/{{page.pagecolor}}/template_12.png" width="24" height="749" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_12.png" width="24" height="749" alt=""></td>
 		<td colspan="8">
-			<img src="/img/templates/{{page.pagecolor}}/template_13.png" width="948" height="22" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_13.png" width="948" height="22" alt=""></td>
 		<td rowspan="3">
-			<img src="/img/templates/{{page.pagecolor}}/template_14.png" width="25" height="749" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_14.png" width="25" height="749" alt=""></td>
 		<td rowspan="3">
-			<img src="/img/templates/{{page.pagecolor}}/template_15.png" width="137" height="749" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_15.png" width="137" height="749" alt=""></td>
 	</tr>
 	<tr>
         <!--Comic Image/Reader's Guide-->
-		<td colspan="8"><a href="http://web.sas.upenn.edu/ulysses-test/{{page.categories}}-{{page.title}}" target="_blank"><img src="/img/{{page.categories}}/{{page.title}}.jpg" width="948" height="704" border="0" usemap="#Map"></a></td>
+		<td colspan="8"><a href="http://web.sas.upenn.edu/ulysses-test/{{page.categories}}-{{page.title}}" target="_blank"><img src="{{ site.baseurl }}/img/{{page.categories}}/{{page.title}}.jpg" width="948" height="704" border="0" usemap="#Map"></a></td>
   </tr>
 	<tr>
 		<td colspan="8">
-			<img src="/img/templates/{{page.pagecolor}}/template_17.png" width="948" height="23" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_17.png" width="948" height="23" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="12">
-			<img src="/img/templates/{{page.pagecolor}}/template_18.png" width="1259" height="151" alt=""></td>
+			<img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_18.png" width="1259" height="151" alt=""></td>
 	</tr>
 	<tr>
 		<td>
-			<img src="/img/spacer.gif" width="125" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="125" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="24" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="24" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="60" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="60" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="138" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="138" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="211" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="211" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="29" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="29" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="71" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="71" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="29" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="29" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="312" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="312" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="98" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="98" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="25" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="25" height="1" alt=""></td>
 		<td>
-			<img src="/img/spacer.gif" width="137" height="1" alt=""></td>
+			<img src="{{ site.baseurl }}/img/spacer.gif" width="137" height="1" alt=""></td>
 	</tr>
 </table>
 {{page.extramarkup}}
