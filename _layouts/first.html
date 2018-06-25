@@ -19,7 +19,7 @@
         </td>
         <!--Chapter Title Image-->
 		<td colspan="9">
-			<img src="{{ site.baseurl }}/img/{{page.categories|downcase}}/{{page.pagecolor}}-chapterheader.png" width="1050" height="24" alt="" border="0">
+			<img src="{{ site.baseurl }}/img/{{page.categories|first|downcase}}/{{page.pagecolor}}-chapterheader.png" width="1050" height="24" alt="" border="0">
         </td>
     </tr>
 	<tr>
@@ -35,7 +35,7 @@
         </td>
         <td>
             <!--Previous Page-->
-            <a href="{{page.prevpage}}"><img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_05.png" alt="back" name="Image32" width="29" height="42" border="0"></a>
+            <a href="{{ site.baseurl }}/{{page.categories|first|downcase}}/{{ page.title | minus: 1}}.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template-over_05.png',1)"><img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_05.png" alt="back" name="Image32" width="29" height="42" border="0"></a>
         </td>
         <td>
             <!--Page Number-->
@@ -43,7 +43,7 @@
         </td>
         <td>
             <!--Next Page-->
-            <a href="{{ site.baseurl }}/{{page.categories | first | downcase}}/{{ page.title | plus: 1}}.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template-over_07.png',1)">
+            <a href="{{ site.baseurl }}/{{page.categories|first|downcase}}/{{ page.title | plus: 1}}.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template-over_07.png',1)">
                 <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_07.png" alt="forward" name="Image33" width="29" height="42" border="0">
             </a>
         </td>
@@ -55,7 +55,7 @@
         </td>
         <!--Reader's Guide-->
         <td colspan="2">
-          <a href="http://web.sas.upenn.edu/ulysses-test/{{page.categories | first | downcase}}-{{page.title}}" target="_blank" onMouseOver="MM_swapImage('Image31','','{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_09_over.png',1)" onMouseOut="MM_swapImgRestore()">
+          <a href="http://web.sas.upenn.edu/ulysses-test/{{page.categories|first|downcase}}-{{page.title}}" target="_blank" onMouseOver="MM_swapImage('Image31','','{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_09_over.png',1)" onMouseOut="MM_swapImgRestore()">
               <img src="{{ site.baseurl }}/img/templates/{{page.pagecolor}}/template_09.png" alt="reader's guide" name="Image31" width="123" height="42" border="0">
           </a>
         </td>
