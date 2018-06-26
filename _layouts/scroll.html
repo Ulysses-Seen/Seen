@@ -98,7 +98,7 @@ white-space:nowrap;
 		<td colspan="8"><div id="scroll" width="948" height="704" border="0">
 	    {% assign checkNumber = 1 %}
             {% for checkNumber in (1..page.totalImages) %}
-            {% checkNumber | plus: 1 %}
+            {% increment checkNumber %}
             {% if checkNumber <= page.totalImages %}
              <img src="{{ site.baseurl }}/img/{{ page.categories | first | downcase }}/{{ checkNumber }}.jpeg" width="948" height="704" border="0" alt="" />
             {% endif %}
