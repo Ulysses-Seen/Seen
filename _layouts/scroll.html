@@ -50,7 +50,7 @@ white-space:nowrap;
 	</tr>
 	<tr>
         <!--Comic Image/Reader's Guide-->
-		<td><div id="scroll" width="948" height="703" border="0">
+		<td><div id="scroll" width="948" height="700" border="0">
             {% for checkNumber in (1..page.totalImages) %}{% capture _ %}{% increment checkNumber %}{% endcapture %}{% if checkNumber <= page.totalImages %}<img src="{{ site.baseurl }}/img/{{ page.categories | first | downcase }}/{{ checkNumber }}.jpeg" width="948" height="704" border="0" alt="" />{% endif %}{% endfor %}
     </div></td>
   </tr>
